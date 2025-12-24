@@ -3,14 +3,14 @@
   "sources": {
     "te-ara-hura": {
       "type": "geojson",
-      "data": "sources/te_ara_hura.geojson"
+      "data": "sources/mountvernonwa.geojson"
     }
   },
   "layers": [
     {
-      "id": "trail-line",
+      "id": "pedestrian_map",
       "type": "line",
-      "source": "te-ara-hura",
+      "source": "MountVernonWA",
       "paint": {
         "line-color": "#e41f18",
         "line-width": 3,
